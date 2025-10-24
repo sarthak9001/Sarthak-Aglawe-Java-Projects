@@ -1,0 +1,62 @@
+import java.util.Scanner;
+public class My_project { 
+     public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+System.out.println("=========================================================");
+System.out.println("Result of 'xyz' exam");
+System.out.println();
+
+System.out.print("Name :-");
+String name = sc.nextLine();
+
+System.out.print("Roll no :-");
+int Roll = sc.nextInt();
+
+System.out.print("Class 1 to 10 :-");
+int Class = sc.nextInt();
+
+System.out.print("Section :-");
+String Section = sc.next();
+
+
+System.out.println("Score in each subject");
+
+System.out.print("English = 100/");
+int English = sc.nextInt();
+ 
+
+System.out.print("Science = 100/");
+int Science = sc.nextInt();
+
+
+System.out.print("Maths = 100/");
+int Maths = sc.nextInt();
+
+
+System.out.print("History = 100/");
+int History = sc.nextInt();
+
+
+System.out.print("Geography = 100/");
+int Geography = sc.nextInt();
+
+
+System.out.print("Total Score = 500/");
+int sum = English+Science+Maths+History+Geography;
+System.out.println(sum);
+
+
+System.out.print("Total in percentage = 100/");
+Float total = (sum / 500f)*100;
+System.out.print(total);
+System.out.println("%");
+
+
+System.out.print("Pass/Fail = ");
+String catogary = sc.next();
+
+System.out.println("=========================================================");
+System.out.println("THANK YOU");
+}
+    
+}
