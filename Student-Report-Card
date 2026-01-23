@@ -52,11 +52,15 @@ System.out.print(total);
 System.out.println("%");
 
 
-System.out.print("Pass/Fail = ");
-String catogary = sc.next();
-
+System.out.print("Catagory = ");
+if(total>=35){
+     System.out.println("pass");
+}
+else{
+System.out.println("Fail");
+}
 System.out.println("=========================================================");
-System.out.println("THANK YOU");
+System.out.println("                     THANK YOU");
 }
     
 }
